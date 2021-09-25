@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    font-family: "Capsule Sans Display", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+
+#home-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#homepage-left {
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-right: 50px;
+    padding-left: 1rem;
+}
+
+#homepage-chart {
+    /* border: 1px solid red; */
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+#homepage-portfolio-title {
+    /* border: 1px solid red; */
+    font-size: 24px;
+    letter-spacing: -0.33px;
+    line-height: 32px;
+    font-weight: 500;
+    border-bottom: 1px solid lightgray;
+    height: 70px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 15px;
+    margin-bottom: 24px;
+
+}
+
+#homepage-portfolio {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* padding-top: 2rem; */
+}
+
+#homepage-right {
+    display: flex;
+    width: 30%;
+    max-width: 400px;
+}
+
+.graph {
+    height: auto;
+    width: auto;
+}
+
+.graphContainer {
+    padding: 0;
+}
