@@ -1,7 +1,7 @@
 # [Visit Here!](https://robinhood-aa.herokuapp.com/)
   RobinCould - a Robinhood clone
    *  [Database-Schema](https://github.com/brancifortnick/RobinCould/wiki/Database-Schema)
-   * [User Stories](https://github.com/brancifortnick/RobinCould/wiki/User-Stories)
+   *  [User Stories](https://github.com/brancifortnick/RobinCould/wiki/User-Stories)
    
 ## Technologies Used
  - Python
@@ -19,23 +19,26 @@ Highlighted Code Snippet(s):
 ```javascript
 {input snippets hereeeeeee}
 
-```   
- 
+```
+Landing Page
+--------------------------|
+[test](blob)
 
-<img src="https://i.gyazo.com/298fa426462efce84d632b3b36d60d0a.jpg" alt="login-page" width='500' height="350">
+Login Page 
+--------------------------|
+<img src="https://i.gyazo.com/298fa426462efce84d632b3b36d60d0a.jpg" alt="login-page" width="500" height="350">
 
-- Sign Up 
-
+Signup Page 
+--------------------------|
 <img src="https://gyazo.com/69791253144626a93731f735414ecbc7.jpeg" style="text-align: right" alt="sign-up-page" width="500" height="350">
 
- - Portfolio
-
+Portfolio Page
+--------------------------| 
 <img src="https://gyazo.com/28579c7e101c7f8ba72960d706172ff7.jpeg" alt="portfolio-page" width="500" height="350">
 
- - Main
- 
+Root Page                      
+--------------------------| 
 ## ![Main](https://gyazo.com/ddcec724ee2f0b627f94272903ce1d62.jpeg)
-
 
 
 # Developers
