@@ -5,36 +5,31 @@
    
 ## Technologies Used
  - Python
- - Flask
+ - Flask-Alembic
  - SQLAlchemy
- - Alembic
  - React
  - Redux
  - HTML
  - CSS
  
 
-Highlighted Code Snippet(s):
 
-```javascript
-{input snippets hereeeeeee}
-
-```
-Landing Page
+Home Page, Login, Signup
 --------------------------|
-[test](blob)
+![Preview](https://gyazo.com/659a22cb2a7c7f7609e950daceafcb28.gif)
 
-Login Page 
+<!-- Login Page 
 --------------------------|
 <img src="https://i.gyazo.com/298fa426462efce84d632b3b36d60d0a.jpg" alt="login-page" width="500" height="350">
-
-Signup Page 
+ -->
+<!-- Signup Page 
 --------------------------|
-<img src="https://gyazo.com/69791253144626a93731f735414ecbc7.jpeg" style="text-align: right" alt="sign-up-page" width="500" height="350">
+<img src="https://gyazo.com/69791253144626a93731f735414ecbc7.jpeg" style="text-align: right" alt="sign-up-page" width="500" height="350"> -->
 
 Portfolio Page
 --------------------------| 
-<img src="https://gyazo.com/28579c7e101c7f8ba72960d706172ff7.jpeg" alt="portfolio-page" width="500" height="350">
+ ## ![Portfolio](https://gyazo.com/28579c7e101c7f8ba72960d706172ff7.jpeg)
+<!-- <img src="https://gyazo.com/28579c7e101c7f8ba72960d706172ff7.jpeg" alt="portfolio-page" width="500" height="350"> -->
 
 Landing Page                      
 --------------------------| 
