@@ -14,26 +14,19 @@
  
 
 
-Home Page, Login, Signup
+Home , Login, Signup
 --------------------------|
 ![Preview](https://gyazo.com/659a22cb2a7c7f7609e950daceafcb28.gif)
 
-<!-- Login Page 
---------------------------|
-<img src="https://i.gyazo.com/298fa426462efce84d632b3b36d60d0a.jpg" alt="login-page" width="500" height="350">
- -->
-<!-- Signup Page 
---------------------------|
-<img src="https://gyazo.com/69791253144626a93731f735414ecbc7.jpeg" style="text-align: right" alt="sign-up-page" width="500" height="350"> -->
-
-Portfolio Page
---------------------------| 
- ## ![Portfolio](https://gyazo.com/28579c7e101c7f8ba72960d706172ff7.jpeg)
-<!-- <img src="https://gyazo.com/28579c7e101c7f8ba72960d706172ff7.jpeg" alt="portfolio-page" width="500" height="350"> -->
-
-Landing Page                      
+Landing                    
 --------------------------| 
 ## ![Main](https://gyazo.com/ddcec724ee2f0b627f94272903ce1d62.jpeg)
+
+
+Portfolio
+--------------------------| 
+ ## ![Portfolio](https://gyazo.com/28579c7e101c7f8ba72960d706172ff7.jpeg)
+ 
 
 
 # Developers
@@ -49,5 +42,14 @@ Landing Page
 
  **Nicholas Brancifort**
   * https://github.com/brancifortnick
+  
+<!-- <img src="https://gyazo.com/28579c7e101c7f8ba72960d706172ff7.jpeg" alt="portfolio-page" width="500" height="350"> -->
+<!-- Login Page 
+--------------------------|
+<img src="https://i.gyazo.com/298fa426462efce84d632b3b36d60d0a.jpg" alt="login-page" width="500" height="350">
+ -->
+<!-- Signup Page 
+--------------------------|
+<img src="https://gyazo.com/69791253144626a93731f735414ecbc7.jpeg" style="text-align: right" alt="sign-up-page" width="500" height="350"> -->
 
 
