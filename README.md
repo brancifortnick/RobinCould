@@ -20,7 +20,7 @@ Home , Login, Signup
 
 Landing                    
 --------------------------| 
-## ![Main](https://gyazo.com/ddcec724ee2f0b627f94272903ce1d62.jpeg)
+## ![Main](https://gyazo.com/ca7184f1da706e6073537cca355b4136.jpeg)
 
 
 Portfolio
