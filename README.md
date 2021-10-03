@@ -36,7 +36,7 @@ Portfolio Page
 --------------------------| 
 <img src="https://gyazo.com/28579c7e101c7f8ba72960d706172ff7.jpeg" alt="portfolio-page" width="500" height="350">
 
-Root Page                      
+Landing Page                      
 --------------------------| 
 ## ![Main](https://gyazo.com/ddcec724ee2f0b627f94272903ce1d62.jpeg)
 
