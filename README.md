@@ -1,4 +1,4 @@
-# [RobinCould](https://robinhood-aa.herokuapp.com/)
+## [Visit RobinCould](https://robinhood-aa.herokuapp.com/)
   Robinhood clone
    *  [Database-Schema](https://github.com/brancifortnick/RobinCould/wiki/Database-Schema)
    *  [User Stories](https://github.com/brancifortnick/RobinCould/wiki/User-Stories)
