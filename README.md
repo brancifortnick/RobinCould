@@ -1,5 +1,5 @@
-## [Visit RobinCould](https://robinhood-aa.herokuapp.com/)
-  Robinhood clone
+## [Visit RobinCould Here](https://robinhood-aa.herokuapp.com/)
+ A Robinhood clone
    *  [Database-Schema](https://github.com/brancifortnick/RobinCould/wiki/Database-Schema)
    *  [User Stories](https://github.com/brancifortnick/RobinCould/wiki/User-Stories)
    
@@ -22,12 +22,12 @@ Home , Login, Signup
 
 Landing                    
 --------------------------| 
-## ![Main](https://gyazo.com/ca7184f1da706e6073537cca355b4136.jpeg)
-
+![Main](https://gyazo.com/ca7184f1da706e6073537cca355b4136.jpeg)
 
 Portfolio
 --------------------------| 
- ## ![Portfolio](https://gyazo.com/28579c7e101c7f8ba72960d706172ff7.jpeg)
+![Porfolio](https://gyazo.com/28579c7e101c7f8ba72960d706172ff7.jpeg)
+<!-- <img src='https://gyazo.com/28579c7e101c7f8ba72960d706172ff7.jpeg' align-text='center' alt='portfolio' width='960' height='500' /> -->
  
 
 
