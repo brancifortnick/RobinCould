@@ -1,5 +1,5 @@
-Flask Notes :)
-<!-- # Flask React Project
+
+# Flask React Project
 
 This is the starter for the Flask React project.
 
@@ -133,4 +133,4 @@ of your Heroku app in the url and tag name:
    ```bash=3
    docker push registry.heroku.com/{NAME_OF_HEROKU_APP}/web
    ```
- -->
+
