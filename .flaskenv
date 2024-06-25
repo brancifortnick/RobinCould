@@ -1,1 +1,1 @@
-FLASK_APP=app.js
+FLASK_APP=app

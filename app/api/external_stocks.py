@@ -1,4 +1,4 @@
-from flask import Blueprint
+from flask import Blueprint, redirect
 import requests
 
 
@@ -8,84 +8,42 @@ external_stocks = Blueprint('external_stocks', __name__)
 # /api/stocks/:ticker
 @external_stocks.route('/<ticker>')
 def get_single_stock(ticker):
-    httpResponse = requests.get("https://www.styvio.com/api/" + ticker)
+    httpResponse = requests.get(
+        "https: // api.polygon.io/v2/aggs/ticker/" + ticker)
     pythonData = httpResponse.json()
+    print(f' ticker{ticker}')
     return pythonData
 
 
 # returned object
 # {
-#     "currentPrice": "$146.39",
-#     "ticker": 'aapl'
-#     "companyAdress": "yyy",
-#     "companyDescription": 'xxx',
-#     "dailyPrices": Array[78][],
-#     "dailyPrices5MinIntervals": Array[5][],
-#     "datesGrow1": "2017",
-#     "datesGrow2": "2018",
-#     "datesGrow3": "2019",
-#     "datesGrow4": "2020",
-#     "generalPublicHoldings": "72.3%",
-#     "holder0": "The Vanguard Group, Inc.",
-#     "holder1": "Berkshire Hathaway, Inc. (Investm...",
-#     "holdingsPie": Array[3][],
-#     "insiderHoldings": "0.33",
-#     "institutionHoldings": "27.49",
-#     "invRate": 91,
-#     "invScore": "A+",
-#     "invWords": "Strong Buy",
-#     "liabGrow1": 241270000000,
-#     "liabGrow2": 258579999999,
-#     "liabGrow3": 248030000000,
-#     "liabGrow4": 258550000000,
-#     "locationLatty": "37.3228934",
-#     "locationLonny": "-122.0322895",
-#     "logoURL": "https://logo.clearbit.com/apple.com",
-#     "marketCap": 2442897653760,
-#     "newsArticle1": "Tencent Agrees to Buy British Game Maker Sumo Group",
-#     "newsArticle2": "3 Dividend-Paying Tech Stocks to Buy in July",
-#     "newsArticle3": "Here's Why Apple Stock Has Room to Run Higher",
-#     "newsArticle4": "Ive used Apple AirPods for years now. Heres what happened when I tried these $40 competitors (psst: theyre good)",
-#     "newsArticle5": "How HBO Max, Netflix, Disney+ secured 'dominance' over cable  and the Emmys",
-#     "newsDate1": "Jul-19-21 04:03AM",
-#     "newsDate2": "Jul-18-21 06:35AM",
-#     "newsDate3": "06:10AM",
-#     "newsDate4": "Jul-17-21 01:10PM",
-#     "newsDate5": "08:21AM",
-#     "newsLink1": "https://finance.yahoo.com/news/tencent-offers-buy-british-game-062241542.html",
-#     "newsLink2": "https://www.fool.com/investing/2021/07/18/3-dividend-paying-tech-stocks-to-buy-in-july/?source=eptyholnk0000202&utm_source=yahoo-host&utm_medium=feed&utm_campaign=article",
-#     "newsSource1": " Bloomberg",
-#     "newsSource2": " Motley Fool",
-#     "newsSource3": " Motley Fool",
-#     "newsSource4": " MarketWatch",
-#     "newsSource5": " Yahoo Finance",
-#     "numberOfInstitutionsHolding": 4957,
-#     "oneMonthPrices": Array[19][],
-#     "percentText": "-1.41%",
-#     "percentTextYear": "+49.84%",
-#     "profitGrowth": Array[4][],
-#     "profitGrowthText": "18.74%",
-#     "revenueGrowth": Array[4][],
-#     "revenueGrowthText": "19.94%",
-#     "sharesAmount0": "1,168,888,431",
-#     "sharesAmount1": "887,135,554",
-#     "sharesAmount2": "700,657,568",
-#     "sharesAmount3": "622,994,241",
-#     "sharesAmount4": "315,208,490",
-#     "sharesAmount5": "249,806,296",
-#     "sharesAmount6": "200,552,368",
-#     "sharesAmount7": "198,866,995",
-#     "sharesAmount8": "167,772,175",
-#     "sharesAmount9": "120,891,761",
-#     "shortName": "Apple Inc.",
-#     "sixMonthPrices": Array[124][],
-#     "threeMonthPrices": Array[62][],
-#     "ticker": "AAPL",
-#     "tradeRate": 91,
-#     "tradeScore": "A+",
-#     "tradeWords": "Strong Buy",
-#     "weeklyPrices": Array[5][],
-#     "weeklyPrices30MinIntervals": Array[65][],
-#     "yearlyPrices": Array[251][]
+#     "adjusted": true,
+#     "next_url": "https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/1578114000000/2020-01-10?cursor=bGltaXQ9MiZzb3J0PWFzYw",
+#     "queryCount": 2,
+#     "request_id": "6a7e466379af0a71039d60cc78e72282",
+#     "results": [
+#         {
+#             "c": 75.0875,
+#             "h": 75.15,
+#             "l": 73.7975,
+#             "n": 1,
+#             "o": 74.06,
+#             "t": 1577941200000,
+#             "v": 135647456,
+#             "vw": 74.6099
+#         },
+#         {
+#             "c": 74.3575,
+#             "h": 75.145,
+#             "l": 74.125,
+#             "n": 1,
+#             "o": 74.2875,
+#             "t": 1578027600000,
+#             "v": 146535512,
+#             "vw": 74.7026
+#         }
+#     ],
+#     "resultsCount": 2,
+#     "status": "OK",
+#     "ticker": "AAPL"
 # }
-
